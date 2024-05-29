@@ -1,0 +1,103 @@
+.member-list {
+    width: 400%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  select,
+  button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  select {
+    appearance: menulist;
+  }
+  
+  button {
+    background-color: rgb(42, 57, 88);
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+  
+  th,
+  td {
+    padding: 0.5rem;
+    text-align: left;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  th {
+    font-weight: bold;
+    background-color: #f2f2f2;
+    cursor: pointer;
+  }
+  
+  td input[type="checkbox"] {
+    margin: 0;
+  }
+  
+  .approval-approved {
+    color: green;
+  }
+  
+  .approval-pending {
+    color: orange;
+  }
+  
+  .approval-rejected {
+    color: red;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .pagination button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    background-color: transparent;
+    margin: 0 0.25rem;
+  }
+  
+  .pagination button:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .pagination button.active {
+    background-color: #007bff;
+    color: #fff;
+  }
